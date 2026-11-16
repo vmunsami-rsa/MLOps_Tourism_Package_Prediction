@@ -28,7 +28,7 @@ Passport = st.selectbox("Has Passport?", ["Yes", "No"])
 PitchSatisfactionScore = st.slider("Pitch Satisfaction Score", 1, 5, 3)
 OwnCar = st.selectbox("Owns a Car?", ["Yes", "No"])
 NumberOfChildrenVisiting = st.slider("Number of Children Visited", 0, 5, 1)
-Designation = st.selectbox("Designation", ["Executive", "Manager", "AVP", "VP", "Sr. Manager"])
+Designation = st.selectbox("Designation", ["Executive", "Manager", "AVP", "VP", "Senior Manager"])
 MonthlyIncome = st.number_input("Monthly Income", min_value=1000.0, value=30000.0)
 
 # ----------------------------
